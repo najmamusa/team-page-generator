@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Playfair+Display:ital,wght@1,900&family=Raleway:wght@300&display=swap');
+
+body{
+    margin: 20px;
+    background: rgb(244, 217, 236);
+    font-family: "raleway", sans-serif;
+ } 
+ .jumbotron{
+    background-color:rgb(250, 182, 227);
+}
+.container-fluid{
+    background-color: rgb(243, 206, 212);
+    border: 3px rgb(240, 161, 201) solid;
+    margin-bottom: 30px;
+    justify-content: center;
+    font-family: "playfair display", sans-serif;
+}
+
+.employee-card:hover {
+    border: 3px rgb(243, 198, 115) solid;
+    margin:8px;
+    transform: scale(1.05);
+}
+.header-manager{
+    background-color:rgb(240, 81, 108);
+}
+
+.header-intern{
+    background-color:rgb(235, 181, 190);
+}
+.header-engineer{
+    background-color:rgb(241, 118, 141);
+}
+.team-area{
+    flex-wrap: wrap;
+}
+.container{
+    /* justify-content: center; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap as needed */
+}

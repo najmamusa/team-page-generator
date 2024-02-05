@@ -1,0 +1,24 @@
+{
+    "name": "team-profile-generator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ZuzanaElt/Team-profile-generator.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ZuzanaElt/Team-profile-generator/issues"
+    },
+    "homepage": "https://github.com/ZuzanaElt/Team-profile-generator#readme",
+    "dependencies": {
+      "inquirer": "^8.2.5",
+      "jest": "^29.4.3"
+    }
+  }
